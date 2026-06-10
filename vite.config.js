@@ -12,7 +12,7 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss(),
   ],
-  base: '/dishwasher-timmer/',
+  base: '/dishwasher-timer/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
